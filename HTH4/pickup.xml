@@ -1,0 +1,228 @@
+<?xml version="1.0"?>
+<CanvasData xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+  <Name>canvas</Name>
+  <Size>
+    <Width>1280</Width>
+    <Height>720</Height>
+  </Size>
+  <GridSize>8</GridSize>
+  <Lines>
+    <anyType xsi:type="LineData">
+      <GUID>21066e55-9368-4e5b-b119-498587154c0f</GUID>
+      <Path>
+        <Point>
+          <X>184</X>
+          <Y>120</Y>
+        </Point>
+        <Point>
+          <X>280</X>
+          <Y>120</Y>
+        </Point>
+      </Path>
+      <ConnectMode>Normal</ConnectMode>
+    </anyType>
+    <anyType xsi:type="LineData">
+      <GUID>79208dd6-8ec1-4db1-936a-0545e15d3c84</GUID>
+      <Path>
+        <Point>
+          <X>280</X>
+          <Y>120</Y>
+        </Point>
+        <Point>
+          <X>408</X>
+          <Y>120</Y>
+        </Point>
+      </Path>
+      <ConnectMode>Normal</ConnectMode>
+    </anyType>
+    <anyType xsi:type="LineData">
+      <GUID>74a23b88-f168-40b1-b5ca-f902e096debb</GUID>
+      <Path>
+        <Point>
+          <X>408</X>
+          <Y>120</Y>
+        </Point>
+        <Point>
+          <X>512</X>
+          <Y>120</Y>
+        </Point>
+      </Path>
+      <ConnectMode>Normal</ConnectMode>
+    </anyType>
+    <anyType xsi:type="LineData">
+      <GUID>d8f874c2-8878-4c0d-badd-e4e5aeeab3af</GUID>
+      <Path>
+        <Point>
+          <X>512</X>
+          <Y>120</Y>
+        </Point>
+        <Point>
+          <X>616</X>
+          <Y>120</Y>
+        </Point>
+      </Path>
+      <ConnectMode>Normal</ConnectMode>
+    </anyType>
+    <anyType xsi:type="LineData">
+      <GUID>abbcc095-4b21-4eb6-b286-1f68022357dc</GUID>
+      <Path>
+        <Point>
+          <X>616</X>
+          <Y>120</Y>
+        </Point>
+        <Point>
+          <X>704</X>
+          <Y>120</Y>
+        </Point>
+      </Path>
+      <ConnectMode>Normal</ConnectMode>
+    </anyType>
+  </Lines>
+  <Activities>
+    <anyType xsi:type="ActivityData">
+      <Name>Pos0</Name>
+      <GUID>5b59ada6-825e-4457-9841-9aa6981104c8</GUID>
+      <Location>
+        <X>152</X>
+        <Y>96</Y>
+      </Location>
+      <Size>
+        <Width>64</Width>
+        <Height>48</Height>
+      </Size>
+      <Text>Pos0</Text>
+      <BackColorText>WhiteSmoke</BackColorText>
+      <MotionFlag>Start</MotionFlag>
+      <BaseName>Pos</BaseName>
+      <Description>Determine the robot's posture (servo position)</Description>
+      <Group>Position</Group>
+      <ConnectedGuids>21066e55-9368-4e5b-b119-498587154c0f</ConnectedGuids>
+      <ConnectTypes>BeginConnect</ConnectTypes>
+      <ProgramCode>
+        <anyType xsi:type="xsd:string">19 10 55 55 00 00 00 64 F5 20 4C 1D 4C 1D 33 1A 4C 1D 4C 1D 4C 1D 4C 1D 0F</anyType>
+      </ProgramCode>
+      <Hint>Frame = 100</Hint>
+    </anyType>
+    <anyType xsi:type="ActivityData">
+      <Name>Pos1</Name>
+      <GUID>24411aff-5e33-484d-a9c9-14221a35a762</GUID>
+      <Location>
+        <X>376</X>
+        <Y>96</Y>
+      </Location>
+      <Size>
+        <Width>64</Width>
+        <Height>48</Height>
+      </Size>
+      <Text>Pos1</Text>
+      <BackColorText>WhiteSmoke</BackColorText>
+      <MotionFlag>None</MotionFlag>
+      <BaseName>Pos</BaseName>
+      <Description>Determine the robot's posture (servo position)</Description>
+      <Group>Position</Group>
+      <ConnectedGuids>79208dd6-8ec1-4db1-936a-0545e15d3c84,74a23b88-f168-40b1-b5ca-f902e096debb</ConnectedGuids>
+      <ConnectTypes>EndConnect,BeginConnect</ConnectTypes>
+      <ProgramCode>
+        <anyType xsi:type="xsd:string">19 10 55 55 00 00 00 64 85 21 36 23 E6 24 83 18 62 17 22 15 4C 1D 4C 1D 5D</anyType>
+      </ProgramCode>
+      <Hint>Frame = 100</Hint>
+    </anyType>
+    <anyType xsi:type="ActivityData">
+      <Name>Pos2</Name>
+      <GUID>49ce6fe8-c345-480a-a0ec-083fe40b3a15</GUID>
+      <Location>
+        <X>248</X>
+        <Y>96</Y>
+      </Location>
+      <Size>
+        <Width>64</Width>
+        <Height>48</Height>
+      </Size>
+      <Text>Pos2</Text>
+      <BackColorText>WhiteSmoke</BackColorText>
+      <MotionFlag>None</MotionFlag>
+      <BaseName>Pos</BaseName>
+      <Description>Determine the robot's posture (servo position)</Description>
+      <Group>Position</Group>
+      <ConnectedGuids>21066e55-9368-4e5b-b119-498587154c0f,79208dd6-8ec1-4db1-936a-0545e15d3c84</ConnectedGuids>
+      <ConnectTypes>EndConnect,BeginConnect</ConnectTypes>
+      <ProgramCode>
+        <anyType xsi:type="xsd:string">19 10 55 55 00 00 00 64 A5 22 65 20 06 26 62 17 33 1A 02 14 4C 1D 4C 1D 5D</anyType>
+      </ProgramCode>
+      <Hint>Frame = 100</Hint>
+    </anyType>
+    <anyType xsi:type="ActivityData">
+      <Name>Pos4</Name>
+      <GUID>72b6fab1-e9d9-477b-ae88-be9143f10432</GUID>
+      <Location>
+        <X>480</X>
+        <Y>96</Y>
+      </Location>
+      <Size>
+        <Width>64</Width>
+        <Height>48</Height>
+      </Size>
+      <Text>Pos1</Text>
+      <BackColorText>WhiteSmoke</BackColorText>
+      <MotionFlag>None</MotionFlag>
+      <BaseName>Pos</BaseName>
+      <Description>Determine the robot's posture (servo position)</Description>
+      <Group>Position</Group>
+      <ConnectedGuids>74a23b88-f168-40b1-b5ca-f902e096debb,d8f874c2-8878-4c0d-badd-e4e5aeeab3af</ConnectedGuids>
+      <ConnectTypes>EndConnect,BeginConnect</ConnectTypes>
+      <ProgramCode>
+        <anyType xsi:type="xsd:string">19 10 55 55 00 00 00 64 15 22 36 23 47 28 83 18 62 17 51 12 4C 1D 4C 1D 7F</anyType>
+      </ProgramCode>
+      <Hint>Frame = 100</Hint>
+    </anyType>
+    <anyType xsi:type="ActivityData">
+      <Name>Pos5</Name>
+      <GUID>8c06b112-2a2f-4ca0-9cd2-d2a7ec02be6d</GUID>
+      <Location>
+        <X>672</X>
+        <Y>96</Y>
+      </Location>
+      <Size>
+        <Width>64</Width>
+        <Height>48</Height>
+      </Size>
+      <Text>Pos0</Text>
+      <BackColorText>WhiteSmoke</BackColorText>
+      <MotionFlag>None</MotionFlag>
+      <BaseName>Pos</BaseName>
+      <Description>Determine the robot's posture (servo position)</Description>
+      <Group>Position</Group>
+      <ConnectedGuids>abbcc095-4b21-4eb6-b286-1f68022357dc</ConnectedGuids>
+      <ConnectTypes>EndConnect</ConnectTypes>
+      <ProgramCode>
+        <anyType xsi:type="xsd:string">19 10 55 55 00 00 00 64 F5 20 4C 1D 4C 1D 33 1A 4C 1D 4C 1D 4C 1D 4C 1D 0F</anyType>
+      </ProgramCode>
+      <Hint>Frame = 100</Hint>
+    </anyType>
+    <anyType xsi:type="ActivityData">
+      <Name>Pos6</Name>
+      <GUID>05e10c32-2ad4-44a2-9287-424468d6aa2b</GUID>
+      <Location>
+        <X>584</X>
+        <Y>96</Y>
+      </Location>
+      <Size>
+        <Width>64</Width>
+        <Height>48</Height>
+      </Size>
+      <Text>Pos1</Text>
+      <BackColorText>WhiteSmoke</BackColorText>
+      <MotionFlag>None</MotionFlag>
+      <BaseName>Pos</BaseName>
+      <Description>Determine the robot's posture (servo position)</Description>
+      <Group>Position</Group>
+      <ConnectedGuids>d8f874c2-8878-4c0d-badd-e4e5aeeab3af,abbcc095-4b21-4eb6-b286-1f68022357dc</ConnectedGuids>
+      <ConnectTypes>EndConnect,BeginConnect</ConnectTypes>
+      <ProgramCode>
+        <anyType xsi:type="xsd:string">19 10 55 55 00 00 00 0A 65 20 65 20 47 28 33 1A 33 1A 51 12 4C 1D 4C 1D 25</anyType>
+      </ProgramCode>
+      <Hint>Frame = 10</Hint>
+    </anyType>
+  </Activities>
+  <BackColorText>buttonface</BackColorText>
+</CanvasData>
