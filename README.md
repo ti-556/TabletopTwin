@@ -8,6 +8,10 @@ pip install --upgrade --user mediapipe
 ### Product
 <img src="Images/Midterm_FrontView.JPG" alt="Midterm Product (Front View)" width="500"/>
 
+### Demonstration
+
+![Hold Demonstration](https://github.com/ti-556/TabletopTwin/blob/main/Images/demonstration.gif)
+
 ### HeartToHeart4 Motion
 HTH4 motion using RCB4
 <br>![Hold Demonstration](https://github.com/ti-556/TabletopTwin/blob/main/Images/Midterm_Hold.gif)
