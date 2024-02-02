@@ -11,3 +11,7 @@ pip install --upgrade --user mediapipe
 ### HeartToHeart4 Motion
 HTH4 motion using RCB4
 <br>![Hold Demonstration](https://github.com/ti-556/TabletopTwin/blob/main/Images/Midterm_Hold.gif)
+
+## References
+
+https://kondo-robot.com/faq/ics35mag
